@@ -1,14 +1,14 @@
-/* global */
+/* global css*/
 *{
    font-family: 'Poppins', sans-serif;
 }
 .f-c-orange{
     color: #E76F51;
 }
-/* featured css */
- img{
-    cursor: pointer;   
+img{
+    cursor: pointer; 
 }
+/* featured css */  
 .gray-scale{
     filter: grayscale(100%);
     transition: 1s;
