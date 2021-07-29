@@ -1,16 +1,19 @@
+/* global */
 *{
    font-family: 'Poppins', sans-serif;
 }
-
+.f-c-orange{
+    color: #E76F51;
+}
 /* featured css */
-.featured-section img{
+ img{
     cursor: pointer;   
 }
-.featured-section .gray-scale{
+.gray-scale{
     filter: grayscale(100%);
     transition: 1s;
 }
-.featured-section .gray-scale:hover{
+.gray-scale:hover{
     filter: grayscale(0%);
 }
 
@@ -19,6 +22,4 @@
     list-style: none;
     color: #E77C40;
 }
-span{
-    color: #E76F51;
-}
+
