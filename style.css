@@ -1,6 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+   font-family: 'Poppins', sans-serif;
+}
 
-.hero-section .h1{
-    font-family: 'Poppins', sans-serif;
-    color: white;
+/* featured css */
+.featured-section img{
+    cursor: pointer;   
+}
+.featured-section .gray-scale{
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.featured-section .gray-scale:hover{
+    filter: grayscale(0%);
+}
+
+/* feedback css */
+.feedback ul li{
+    list-style: none;
+    color: #E77C40;
+}
+span{
+    color: #E76F51;
 }
